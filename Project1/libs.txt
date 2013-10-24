@@ -1,0 +1,204 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\mclarceny>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . : hsd1.or.comcast.net.
+   Link-local IPv6 Address . . . . . : fe80::2139:3e75:1610:b89f%10
+   IPv4 Address. . . . . . . . . . . : 10.0.0.2
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.0.0.1
+
+Tunnel adapter isatap.hsd1.or.comcast.net.:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : hsd1.or.comcast.net.
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2001:0:5ef5:79fb:1877:36d9:e7eb:31e9
+   Link-local IPv6 Address . . . . . : fe80::1877:36d9:e7eb:31e9%12
+   Default Gateway . . . . . . . . . : ::
+
+C:\Users\mclarceny>cd ..
+
+C:\Users>cd ..
+
+C:\>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C499-661F
+
+ Directory of C:\
+
+09/10/2013  11:42 AM    <DIR>          AMD
+09/07/2013  10:53 PM    <DIR>          Dev
+09/24/2013  02:57 PM    <DIR>          Fraps
+10/02/2013  04:59 PM    <DIR>          MinGW
+10/02/2013  06:04 PM    <DIR>          msys
+09/07/2013  09:00 PM    <DIR>          NVIDIA
+07/13/2009  08:20 PM    <DIR>          PerfLogs
+10/02/2013  08:14 PM    <DIR>          Program Files
+10/04/2013  10:41 AM    <DIR>          Program Files (x86)
+09/07/2013  08:57 PM    <DIR>          Users
+10/03/2013  06:10 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+              11 Dir(s)  40,840,994,816 bytes free
+
+C:\>cd "Program Files (x86)"
+
+C:\Program Files (x86)>cd VTK
+
+C:\Program Files (x86)\VTK>cd lib
+
+C:\Program Files (x86)\VTK\lib>dir *.lib
+ Volume in drive C has no label.
+ Volume Serial Number is C499-661F
+
+ Directory of C:\Program Files (x86)\VTK\lib
+
+File Not Found
+
+C:\Program Files (x86)\VTK\lib>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C499-661F
+
+ Directory of C:\Program Files (x86)\VTK\lib
+
+10/04/2013  10:18 AM    <DIR>          .
+10/04/2013  10:18 AM    <DIR>          ..
+10/04/2013  10:18 AM    <DIR>          vtk-5.10
+               0 File(s)              0 bytes
+               3 Dir(s)  40,840,994,816 bytes free
+
+C:\Program Files (x86)\VTK\lib>cd vtk-5.10
+
+C:\Program Files (x86)\VTK\lib\vtk-5.10>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C499-661F
+
+ Directory of C:\Program Files (x86)\VTK\lib\vtk-5.10
+
+10/04/2013  10:18 AM    <DIR>          .
+10/04/2013  10:18 AM    <DIR>          ..
+10/04/2013  10:18 AM    <DIR>          CMake
+10/04/2013  10:18 AM    <DIR>          doc
+10/04/2013  10:18 AM    <DIR>          doxygen
+10/02/2013  04:45 PM            20,226 hints
+10/03/2013  07:38 PM           951,076 LSDyna.lib
+10/03/2013  07:40 PM           486,994 MapReduceMPI.lib
+10/03/2013  07:40 PM            90,482 mpistubs.lib
+10/04/2013  10:18 AM    <DIR>          testing
+10/03/2013  06:14 PM             1,327 UseVTK.cmake
+10/03/2013  07:39 PM           764,160 vtkalglib.lib
+10/03/2013  06:13 PM               665 VTKBuildSettings.cmake
+10/03/2013  08:15 PM         7,344,724 vtkCharts.lib
+10/03/2013  06:17 PM             2,613 vtkChartsKit.cmake
+10/03/2013  07:44 PM        25,056,924 vtkCommon.lib
+10/03/2013  06:17 PM             8,608 vtkCommonKit.cmake
+10/03/2013  06:17 PM             9,726 VTKConfig.cmake
+10/03/2013  06:17 PM               520 VTKConfigVersion.cmake
+10/03/2013  07:38 PM         1,590,594 vtkDICOMParser.lib
+10/03/2013  07:50 PM         1,098,678 vtkexoIIc.lib
+10/03/2013  07:38 PM           188,368 vtkexpat.lib
+10/03/2013  07:50 PM        30,955,998 vtkFiltering.lib
+10/03/2013  06:17 PM            10,322 vtkFilteringKit.cmake
+10/03/2013  07:38 PM           696,498 vtkfreetype.lib
+10/03/2013  07:39 PM            99,208 vtkftgl.lib
+10/03/2013  07:58 PM         1,064,992 vtkGenericFiltering.lib
+10/03/2013  06:17 PM             1,343 vtkGenericFilteringKit.cmake
+10/03/2013  08:14 PM         3,713,910 vtkGeovis.lib
+10/03/2013  06:17 PM             1,637 vtkGeovisKit.cmake
+10/03/2013  07:58 PM        39,537,196 vtkGraphics.lib
+10/03/2013  06:17 PM             8,966 vtkGraphicsKit.cmake
+10/03/2013  07:49 PM         5,453,984 vtkhdf5.lib
+10/03/2013  07:49 PM           181,108 vtkhdf5_hl.lib
+10/03/2013  08:07 PM        15,161,296 vtkHybrid.lib
+10/03/2013  06:17 PM             2,844 vtkHybridKit.cmake
+10/03/2013  07:53 PM        15,621,154 vtkImaging.lib
+10/03/2013  06:17 PM             4,378 vtkImagingKit.cmake
+10/03/2013  08:13 PM        22,170,966 vtkInfovis.lib
+10/03/2013  06:17 PM             4,570 vtkInfovisKit.cmake
+10/03/2013  07:56 PM        34,561,398 vtkIO.lib
+10/03/2013  06:17 PM             6,622 vtkIOKit.cmake
+10/03/2013  07:38 PM           233,628 vtkjpeg.lib
+10/03/2013  07:40 PM         2,682,766 vtklibxml2.lib
+10/03/2013  07:38 PM         5,315,074 vtkmetaio.lib
+10/03/2013  07:49 PM         1,037,362 vtkNetCDF.lib
+10/03/2013  07:50 PM           382,300 vtkNetCDF_cxx.lib
+10/03/2013  07:37 PM           260,076 vtkpng.lib
+10/03/2013  07:40 PM           789,382 vtkproj4.lib
+10/03/2013  08:04 PM        31,985,392 vtkRendering.lib
+10/03/2013  06:17 PM             7,963 vtkRenderingKit.cmake
+10/03/2013  07:38 PM           853,546 vtksqlite.lib
+10/03/2013  07:38 PM         2,052,948 vtksys.lib
+10/03/2013  06:19 PM            19,940 VTKTargets-release.cmake
+10/03/2013  06:19 PM             6,229 VTKTargets.cmake
+10/03/2013  07:40 PM           617,534 vtktiff.lib
+10/03/2013  07:38 PM           270,534 vtkverdict.lib
+10/03/2013  08:14 PM         4,311,354 vtkViews.lib
+10/03/2013  06:17 PM             1,634 vtkViewsKit.cmake
+10/03/2013  08:08 PM        12,198,564 vtkVolumeRendering.lib
+10/03/2013  06:17 PM             3,363 vtkVolumeRenderingKit.cmake
+10/03/2013  08:10 PM        14,791,088 vtkWidgets.lib
+10/03/2013  06:17 PM             5,388 vtkWidgetsKit.cmake
+10/03/2013  07:37 PM            85,726 vtkzlib.lib
+              58 File(s)    284,785,866 bytes
+               6 Dir(s)  40,840,994,816 bytes free
+
+C:\Program Files (x86)\VTK\lib\vtk-5.10>dir *.lib
+ Volume in drive C has no label.
+ Volume Serial Number is C499-661F
+
+ Directory of C:\Program Files (x86)\VTK\lib\vtk-5.10
+
+LSDyna.lib
+MapReduceMPI.lib
+mpistubs.lib
+vtkalglib.lib
+vtkCharts.lib
+vtkCommon.lib
+vtkDICOMParser.lib
+vtkexoIIc.lib
+vtkexpat.lib
+vtkFiltering.lib
+vtkfreetype.lib
+vtkftgl.lib
+vtkGenericFiltering.lib
+vtkGeovis.lib
+vtkGraphics.lib
+vtkhdf5.lib
+vtkhdf5_hl.lib
+vtkHybrid.lib
+vtkImaging.lib
+vtkInfovis.lib
+vtkIO.lib
+vtkjpeg.lib
+vtklibxml2.lib
+vtkmetaio.lib
+vtkNetCDF.lib
+vtkNetCDF_cxx.lib
+vtkpng.lib
+vtkproj4.lib
+vtkRendering.lib
+vtksqlite.lib
+vtksys.lib
+vtktiff.lib
+vtkverdict.lib
+vtkViews.lib
+vtkVolumeRendering.lib
+vtkWidgets.lib
+vtkzlib.lib
+              37 File(s)    284,656,982 bytes
+               0 Dir(s)  40,840,994,816 bytes free
+
+C:\Program Files (x86)\VTK\lib\vtk-5.10>
